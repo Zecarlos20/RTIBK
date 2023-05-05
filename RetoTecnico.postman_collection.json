@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "355577f4-ec1f-4fc9-b6a1-9f4fec0b90b7",
+		"name": "RetoTecnico",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/exchange-rate/calculate",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"to\": \"EUR\",\r\n    \"from\": \"PEN\",\r\n    \"amount\": 12.50\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/exchange-rate/calculate",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"exchange-rate",
+						"calculate"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
